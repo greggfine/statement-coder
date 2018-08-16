@@ -1,0 +1,17 @@
+li {
+	list-style-type: none;
+	padding: 10px;
+	font-weight: 700;
+	padding-right: 20px;
+}
+
+
+
+span {
+	color: red;
+}
+
+span::before{
+	content: ": ";
+	color: #000;
+}

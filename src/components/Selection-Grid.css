@@ -1,0 +1,22 @@
+.code-selector {
+	border: 1px solid red;
+	padding: 10px;
+	border-radius: 5px;
+	flex-basis: 100px;
+	margin: 10px;
+}
+
+h1 {
+	color: red;
+}
+
+.selection-grid {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+}
