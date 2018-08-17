@@ -14,7 +14,6 @@ class App extends Component {
 			results: []
 		}
 
-
 		this.handleClick=this.handleClick.bind(this)
 		this.handleClear=this.handleClear.bind(this)
 		this.handleRemove=this.handleRemove.bind(this)
@@ -50,7 +49,27 @@ class App extends Component {
 		})
 	}
 
+	 hydrateStateWithLocalStorage(){
+	  		let value = localStorage.getItem("results");
+	  		for(let key in this.state){
+	  			if(localStorage.hasOwnProperty(key)){
+	  				this.setState({
+	  					results: JSON.parse(value)
+	  				})
+	  			}
+	  		}
+	  }
+
+  componentDidMount(){
+    this.hydrateStateWithLocalStorage();
+  }
+
+  componentDidUpdate(){
+  	localStorage.setItem("results", JSON.stringify(this.state.results));
+  }
+
   render() {
+  
   	const { Codes, results } = this.state;
   	const headerStyle = {
   		textAlign: 'center', 
