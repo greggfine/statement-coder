@@ -8,19 +8,19 @@ const Codes = [
 		code: 5040
 	},
 	{
-		category: 'bank_service_charge',
+		category: 'bank service charge',
 		code: 6199
 	},
 	{
-		category: 'books_trades',
+		category: 'books/trades',
 		code: 6129
 	},
 	{
-		category: 'cable_tv',
+		category: 'cable/tv',
 		code: 6131
 	},
 	{
-		category: 'credit_card',
+		category: 'credit card',
 		code: 6198
 	},
 	{
@@ -28,7 +28,7 @@ const Codes = [
 		code: 6165
 	},
 	{
-		category: 'electric_bill',
+		category: 'electric bill',
 		code: 6127
 	},
 	{
@@ -36,11 +36,11 @@ const Codes = [
 		code: 6360
 	},
 	{
-		category: 'equipment_repairs',
+		category: 'equipment repairs',
 		code: 6330
 	},
 	{
-		category: 'film_video',
+		category: 'film/video',
 		code: 6125
 	},
 	{
@@ -52,19 +52,19 @@ const Codes = [
 		code: 6175
 	},
 	{
-		category: 'graphic_design',
+		category: 'graphic design',
 		code: 6144
 	},
 	{
-		category: 'gym_fees',
+		category: 'gym fees',
 		code: 6196
 	},
 	{
-		category: 'health_insurance',
+		category: 'health insurance',
 		code: 6128
 	},
 	{
-		category: 'household_expenses',
+		category: 'household expenses',
 		code: 6133
 	},
 	{
@@ -80,31 +80,31 @@ const Codes = [
 		code: 6290
 	},
 	{
-		category: 'music_equipment',
+		category: 'music equipment',
 		code: 6150
 	},
 	{
-		category: 'office_expenses',
+		category: 'office expenses',
 		code: 6420
 	},
 	{
-		category: 'office_supplies',
+		category: 'office supplies',
 		code: 6550
 	},
 	{
-		category: 'payroll_expenses',
+		category: 'payroll expenses',
 		code: 6560
 	},
 	{
-		category: 'personal_expense',
+		category: 'personal expense',
 		code: 6200
 	},
 	{
-		category: 'personal_loan',
+		category: 'personal loan',
 		code: 6126
 	},
 	{
-		category: 'pet_expenses',
+		category: 'pet expenses',
 		code: 6132
 	},
 	{
@@ -116,7 +116,7 @@ const Codes = [
 		code: 6421
 	},
 	{
-		category: 'subcontracted_producers',
+		category: 'subcontracted producers',
 		code: 6070
 	},
 	{
@@ -136,7 +136,7 @@ const Codes = [
 		code: 6380
 	},
 	{
-		category: 'union_Dues_Fees',
+		category: 'union dues/fees',
 		code: 6080
 	},
 	{
@@ -148,7 +148,7 @@ const Codes = [
 		code: 6142
 	},
 	{
-		category: 'website_hosting',
+		category: 'website hosting',
 		code: 6124
 	},
 

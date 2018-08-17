@@ -1,9 +1,17 @@
 .code-selector {
-	border: 1px solid red;
-	padding: 10px;
-	border-radius: 5px;
-	flex-basis: 100px;
+	padding: 15px;
+	border-radius: 3px;
+	width: 200px;
 	margin: 10px;
+	background-color: #DD403A;
+	color: #FFFCE8;
+	opacity: .9;
+}
+
+.code-selector:hover {
+	cursor: pointer;
+	transform: scale(1.02);
+	opacity: 1;
 }
 
 h1 {
@@ -19,4 +27,13 @@ h1 {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	text-align: center;
+	padding: 20px;
+}
+
+@media screen and (max-width: 600px){
+	.selection-grid {
+		justify-content: center;
+		padding: 0px;
+	}
+
 }

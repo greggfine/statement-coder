@@ -5,7 +5,7 @@ const ClearButton = ({ handleClear }) => {
 	return(
 			<button
 				onClick={ handleClear }
-			>ClearButton</button>
+			>Clear All</button>
 		)
 	}
 

@@ -1,6 +1,16 @@
 button {
-	padding: .75rem 2rem;
+	padding: .75rem 1.75rem;
 	border-radius: 5px;
-	background-color: darkgreen;
+	background-color: #B8B42D;
 	color: #fff;
+	font-size: 1.2rem;
+	transition: transform ease-in 50ms;
+	display: block;
+	margin: auto;
+	box-shadow: 2px 4px 5px #dedede;
+}
+
+button:hover {
+	cursor: pointer;
+	transform: scale(1.02);
 }
