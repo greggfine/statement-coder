@@ -2,7 +2,7 @@
   "name": "statement-coder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myusername.github.io/statementcoder",
+  "homepage": "https://myusername.github.io/statement-coder",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.4.2",
